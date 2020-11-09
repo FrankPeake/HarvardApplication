@@ -1,0 +1,43 @@
+body{
+  color:white;
+  font-family: Georgia, serif;
+  background-color: #fab1c6;
+}
+
+h1 {
+  color: #dfbd00;
+}
+
+input[type=text]{
+  width: 50%;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+input[type=submit]{
+  background-color:#dfbd00;
+  font-weight: bolder;
+  color: #990000;
+  height: 25px;
+  width: 75px;
+  box-shadow: 2px 2px 5px black;
+
+}
+
+.field {
+  background-color: #990000;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+  border: 20px solid;
+  border-image: url(border.jpg) 30 round;
+  box-shadow: 5px 5px 10px black;
+  position: relative;
+  top: 125px;
+}
+
+.line{
+  margin: 50px;
+}
